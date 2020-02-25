@@ -6,7 +6,7 @@ exports.up = function(knex) {
 
         like.string('name').notNullable()
 
-        like.integer('comment_id').unsigned().notNullable().references('id').inTable('comments')
+        like.integer('comment_id').notNullable()
 
     })
 };

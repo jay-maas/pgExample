@@ -2,6 +2,7 @@
 exports.up = function(knex) {
     return knex.schema
     .createTable('comments', comment => {
+
         comment.increments()
 
         comment.string('comment').notNullable()
