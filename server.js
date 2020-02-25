@@ -56,8 +56,8 @@ server.get('/:id', (req, res) => {
                     },
                     likesCount: likes.length
                 }
-            console.log(commentWithLikes)
-            // res.status(200).json()
+            // console.log(commentWithLikes)
+            res.status(200).json(commentWithLikes)
         })
     })
     .catch(err => {
