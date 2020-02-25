@@ -1,0 +1,30 @@
+{
+  "name": "pgexample",
+  "version": "1.0.0",
+  "description": "An example project to showcase how to set up DB persistance with PG",
+  "main": "index.js",
+  "scripts": {
+    "server":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-maas/pgExample.git"
+  },
+  "author": "Jay Lynn Maas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-maas/pgExample/issues"
+  },
+  "homepage": "https://github.com/jay-maas/pgExample#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.10",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
